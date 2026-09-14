@@ -1,0 +1,26 @@
+# Core API
+fastapi>=0.110.0
+uvicorn>=0.28.0
+pydantic>=2.6.0
+python-multipart>=0.0.9
+httpx>=0.23.0
+
+# ASR — Whisper Tiny via faster-whisper (optimized CTranslate2 runtime)
+faster-whisper>=1.2.1
+ctranslate2>=4.0.0
+
+# MT — IndicTrans2 via HuggingFace Transformers
+transformers>=4.40.0
+torch>=2.2.0
+sentencepiece>=0.2.0
+sacremoses>=0.1.1
+
+# IndicTransToolkit — requires Microsoft C++ Build Tools on Windows
+# Install Build Tools from: https://visualstudio.microsoft.com/visual-cpp-build-tools/
+# Then run: pip install IndicTransToolkit
+# IndicTransToolkit>=0.1.0
+
+# Audio processing
+numpy>=1.26.0
+soundfile>=0.12.1
+librosa>=0.10.1

@@ -1,0 +1,11 @@
+backend/models/
+backend/onnx_models/
+palash_setu/build/
+backend/__pycache__/
+backend/NeMo/
+palash_setu/ai_env/
+*.onnx
+*.bin
+*.pt
+*.safetensors
+.idea/
