@@ -9,3 +9,4 @@ palash_setu/ai_env/
 *.pt
 *.safetensors
 .idea/
+brain.md
